@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(58, 57, 57);
+}
+
+.container {
+    background-image: url(./img/opel-2489170_1920.jpg);
+    margin: 0px auto;
+    width: 1400px;
+    height: 950px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.head {
+    background: rgba(0, 0, 0, 0.6);
+    width: 1400px;
+    height: 70px;
+    margin: 0px auto;
+}
+
+.lista {
+    float: left;
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 110%;
+}
+
+.navimg {
+    margin-left: 5%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 0%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 300%;
+}
+
+.navimg h1 {}
+
+.menu {
+    height: 830px;
+    width: 1400px;
+    float: left;
+}
+
+.footer {
+    height: 50px;
+    width: 1400px;
+    float: left;
+    background: rgba(0, 0, 0, 0.6);
+}
